@@ -1,0 +1,219 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="MyPortfolio.css">
+    <style>
+        .main-section {
+            display: flex;
+        }
+
+        .left-side {
+
+            height: 500px;
+            width: 700px;
+        }
+
+        .right-side {
+            height: 500px;
+            width: 590px;
+        }
+
+        form {
+            position: relative;
+            left: 100px;
+            top: 80px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        button {
+            height: 30px;
+            width: 400px;
+            background-color: #FCF8F3;
+            color: black;
+            border: 0.1px solid black;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding-left: 5px;
+        }
+
+        textarea {
+            height: 150px;
+            width: 400px;
+            background-color: #FCF8F3;
+            color: black;
+            border: 0.1px solid black;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 10px;
+
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            cursor: hand;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            transition: 0.5s ease-in-out;
+        }
+
+        h3 {
+            margin-left: 50px;
+            margin-top: 70px;
+            color: rgb(173, 172, 172);
+        }
+
+        p {
+            color: rgb(173, 172, 172);
+        }
+
+        .phone>img {
+            width: 29px;
+            margin-left: 90px;
+            margin-top: 16px;
+        }
+
+        .phone>p {
+            position: relative;
+            top: -27px;
+            left: 125px;
+            font-size: 18px;
+        }
+
+        .email>img {
+            width: 29px;
+            margin-left: 90px;
+            position: relative;
+            top: -18px;
+        }
+
+        .email>p {
+            position: relative;
+            top: -47px;
+            left: 125px;
+            font-size: 18px;
+        }
+
+        .snapchat>img {
+            width: 25px;
+            margin-left: 92px;
+            position: relative;
+            top: -36px;
+        }
+
+        .snapchat>p {
+            position: relative;
+            top: -63.58px;
+            left: 125px;
+            font-size: 18px;
+        }
+
+        .social {
+            margin-left: 50px;
+            margin-top: 0px;
+            color: rgb(173, 172, 172);
+
+        }
+
+        .img-size1 {
+            width: 106.5px;
+            position: relative;
+            left: 100px;
+            top: 20px;
+        }
+
+        .img-size2 {
+            width: 65px;
+            position: relative;
+            left: 150px;
+            top: 20px;
+        }
+
+        .img-size3 {
+            width: 48px;
+            position: relative;
+            left: 225px;
+            top: 10px;
+        }
+        .linkes{
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Souvik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="MyPortfolio.html">Home</a></li>
+                    <li><a href="MyPortfolioAbout.html">About</a></li>
+                    <li><a href="MyPortfolioService.html">Service</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="MyPortfolioContact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-section">
+            <div class="left-side">
+                <form action="">
+                    <p>Name: *</p>
+                    <input type="text" required placeholder="Name Here...">
+
+                    <p>Email: *</p>
+                    <input type="email" required placeholder="Email Here...">
+
+                    <p>Message: *</p>
+                    <textarea name="" id="" cols="20" rows="5" required placeholder="Type a message..."></textarea> <br>
+
+                    <button>Click Here</button>
+                </form>
+            </div>
+            <div class="right-side">
+                <h3>CONTACT DETAILS-:</h3>
+                <div class="phone">
+                    <img src="img//mobile_gray.png" alt="">
+                    <p>+91 6371053639</p>
+                </div>
+
+                <div class="email">
+                    <img src="img//email gray.png" alt="">
+                    <p>souvikpradhan70@gmail.com</p>
+                </div>
+                <div class="snapchat">
+                    <img src="img//snapchat gray.png" alt="">
+                    <p>@souvik_pradhan2</p>
+                </div>
+
+                <h3 class="social">SOCIAL LINKS-:</h3>
+                <div class="linkes">
+                    <a href=""><img src="img//Facebook Grey.png" alt="" class="img-size1"></a>
+                    <a href=""><img src="img//insta gray.png" alt="" class="img-size2"></a>
+                    <a href=""><img src="img//linkedin gray.png" alt="" class="img-size3"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
